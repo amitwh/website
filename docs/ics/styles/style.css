@@ -1,0 +1,215 @@
+/* Interface config file for ICS website */
+
+/* Created by Amit Haridas @ concreteinfo.in on 15-SEp-2019  */
+
+/* // Large devices (desktops, less than 1200px) */
+
+body {
+    font-family: Roboto;
+}
+
+.container {
+    background-color: rgba(3, 1, 7, 0.932);
+}
+
+.container-fluid {
+    /* max-width: 1279.98px; */
+    margin: auto;
+    font-family: Roboto;
+    background-color: rgba(7, 0, 10, 0.918);
+}
+
+.navbar {
+    max-width: 1279.98px;
+    margin: auto;
+    font-family: Roboto;
+    padding: 0 !important;
+}
+
+/* change the color of active or hovered links */
+
+.navbar-nav .nav-item.active .nav-link,
+.navbar-nav .nav-item:hover .nav-link {
+    color: #ff0022;
+}
+
+.navbar-nav .nav-link.active {
+    background-color: #ffee00;
+}
+
+.navbar-nav a {
+    padding: 15px 0;
+    /* add some padding to link to keep the same height*/
+}
+
+.resize_img {
+    max-width: 100px;
+    max-height: auto;
+}
+
+.carousel {
+    padding-top: 40px;
+    max-width: 1279.98px;
+    margin: auto;
+    font-family: Roboto;
+    background-color: #f1f1f1;
+}
+
+.carousel img {
+    width: 100%;
+}
+
+.card-group {
+    max-width: 1279.98px;
+    margin: auto;
+    font-family: Roboto;
+}
+
+#about-us {
+    padding-top: 40px;
+    background-color: #f1f1f1;
+    max-width: 1279.98px;
+    margin: auto;
+    font-family: Roboto;
+}
+
+#about-us .card-header {
+    background-color: #ffa000;
+}
+
+#vmv .card {
+    box-shadow: 0 1px 1.5px 0 rgba(0, 0, 0, .12), 0 1px 1px 0 rgba(0, 0, 0, .24);
+}
+
+#vmv #vision .card-header {
+    background-color: #fdd835;
+    /* font-family: Proza; */
+}
+
+#vmv #vision .card-body {
+    background-color: #f8f2d6;
+    /* font-family: Proza; */
+}
+
+#vmv #values .card-header {
+    background-color: #ffa000;
+}
+
+#vmv #values .card-body {
+    background-color: #fcf3e4;
+}
+
+#vmv #strength .card-header {
+    background-color: #ffa726;
+}
+
+#vmv #strength .card-body {
+    background-color: #f7ead8;
+}
+
+#projects {
+    padding-top: 40px;
+    background-color: #f1f1f1;
+    max-width: 1279.98px;
+    margin: auto;
+    font-family: Roboto;
+}
+
+#proj-title {
+    background-color: #ffc107;
+}
+
+#ong {
+    background-color: #fcfcfc;
+}
+
+#ongoing {
+    background-color: #fcfcfc;
+}
+
+#op-c1 {
+    background-color: #ff9100;
+}
+
+#op-c1 .row {
+    background-color: #ffd180;
+}
+
+#op-c2 {
+    background-color: #ffc400;
+}
+
+#op-c3 {
+    background-color: #ff9800;
+}
+
+#op-c4 {
+    background-color: #ffc107;
+}
+
+.tab-content .card-group .card .row .card-img-top {
+    max-width: 450px;
+}
+
+#clients {
+    padding-top: 40px;
+    background-color: #f1f1f1;
+    max-width: 1279.98px;
+    margin: auto;
+    font-family: Roboto;
+}
+
+#clients .card-header {
+    background-color: #ffc107;
+}
+
+#services {
+    padding-top: 40px;
+    background-color: #f1f1f1;
+    max-width: 1279.98px;
+    margin: auto;
+    font-family: Roboto;
+}
+
+#services .card-header {
+    background-color: #ffc107
+}
+
+#contact {
+    padding-top: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+    max-width: 1279.98px;
+    background-color: #f1f1f1;
+}
+
+#contact .card-header {
+    background-color: #ffc107;
+}
+
+#contact .card-body {}
+
+/* Code for Small Device content: '\f1ec'; */
+
+@media screen and (max-width:800px) {
+    .navbar {
+        font-size: 0.9em;
+        /* text-transform: uppercase; */
+    }
+    #xtra {
+        display: none;
+    }
+    .resize_img {
+        max-width: 70px;
+        max-height: auto;
+    }
+    .navbar .dropdown-menu {
+        font-size: 0.9em;
+    }
+    h3 {
+        font-size: 1.1em;
+    }
+    p {
+        font-size: 0.9em;
+    }
+}

@@ -1,0 +1,282 @@
+/* Interface config file for ICS website */
+
+/* Created by Amit Haridas @ concreteinfo.in on 15-SEp-2019  */
+
+/* // Large devices (desktops, less than 1200px) */
+
+body {
+    font-family: Roboto;
+}
+
+.container {
+    background-color: rgba(3, 1, 7, 0.932);
+}
+
+.container-fluid {
+    /* max-width: 1279.98px; */
+    margin: auto;
+    font-family: Roboto;
+    background-color: rgba(7, 0, 10, 0.918);
+}
+
+.navbar {
+    max-width: 1279.98px;
+    margin: auto;
+    font-family: Roboto;
+    padding: 0 !important;
+    background-color: #ffffff;
+    box-shadow: 0 1px 1.5px 0 rgba(0, 0, 0, .12), 0 1px 1px 0 rgba(0, 0, 0, .24);
+    color: black;
+}
+
+.nav-link {
+    color: #0c0b0c;
+    width: 100px;
+    text-align: center;
+}
+
+/* change the color of active or hovered links */
+
+.navbar-nav .nav-item.active .nav-link,
+.navbar-nav .nav-item:hover .nav-link {
+    background-color: #ef476f;
+    color: white;
+    -moz-animation: cubic-bezier(0.075, 0.82, 0.165, 1);
+    animation-fill-mode: forwards;
+    -webkit-animation: cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+.navbar-nav .nav-link.active {
+    color: #ffc107;
+    background-color: #202c39;
+    box-shadow: 0 1px 1.5px 0 rgba(0, 0, 0, .12), 0 1px 1px 0 rgba(0, 0, 0, .24);
+}
+
+.navbar-nav a {
+    padding: 15px 0;
+    /* add some padding to link to keep the same height*/
+}
+
+.resize_img {
+    max-width: 100px;
+    max-height: auto;
+}
+
+.carousel {
+    padding-top: 40px;
+    max-width: 1279.98px;
+    margin: auto;
+    font-family: Roboto;
+    background-color: #f1f1f1;
+}
+
+.carousel img {
+    width: 100%;
+}
+
+.carousel-caption {
+    position: absolute;
+    bottom: 90px;
+}
+
+.card-group {
+    max-width: 1279.98px;
+    margin: auto;
+    font-family: Roboto;
+}
+
+.card,
+.card-header,
+.card-body {
+    border: none;
+}
+
+#about-us {
+    padding-top: 40px;
+    background-color: #dfddd9;
+    max-width: 1279.98px;
+    margin: auto;
+    font-family: Roboto;
+}
+
+#abs,
+#proj-title,
+#clie,
+#serv,
+#cont {
+    color: #ffc107;
+    background-color: #202c39;
+    font-size: 1.1em;
+    border-radius: 5px;
+}
+
+#vmv .card {
+    /* box-shadow: 0 1px 1.5px 0 rgba(0, 0, 0, .12),
+0 1px 1px 0 rgba(0, 0, 0, .24); */
+}
+
+#vmv #vision .card-header {
+    background-color: #fdd835;
+    color: black;
+    /* font-family: Proza; */
+}
+
+#vmv #vision .card-body {
+    background-color: #f8f2d6;
+    color: black;
+    /* font-family: Proza; */
+}
+
+#vmv #values .card-header {
+    background-color: #ffa000;
+    color: black;
+}
+
+#vmv #values .card-body {
+    background-color: #fcf3e4;
+    color: black;
+}
+
+#vmv #strength .card-header {
+    background-color: #ffa726;
+    color: black;
+}
+
+#vmv #strength .card-body {
+    background-color: #f7ead8;
+    color: black;
+}
+
+#projects {
+    padding-top: 40px;
+    background-color: #f0f0f0;
+    max-width: 1279.98px;
+    margin: auto;
+    font-family: Roboto;
+    border: none;
+}
+
+#proj-title .nav .nav-item {
+    border: none;
+    font-size: 1.1em;
+}
+
+#ong {
+    border: none;
+}
+
+#ongoing {
+    border: none;
+}
+
+#ongoing .card-body {
+    background-color: #dfddd9;
+    border: none;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+#projects .nav-link {
+    color: #0c0b0c;
+    max-width: auto;
+    text-align: center;
+}
+
+#projects .nav-item.active .nav-link,
+#projects .nav-item:hover .nav-link {
+    background-color: #ef476f;
+    color: white;
+    -moz-animation: cubic-bezier(0.075, 0.82, 0.165, 1);
+    animation-fill-mode: forwards;
+    -webkit-animation: cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+#projects .nav-link.active {
+    color: #ffc107;
+    background-color: #202c39;
+    box-shadow: 0 1px 1.5px 0 rgba(0, 0, 0, .12), 0 1px 1px 0 rgba(0, 0, 0, .24);
+}
+
+#op-c1 {
+    background-color: #ffc400;
+}
+
+#op-c1 .row {
+    background-color: #ffd180;
+}
+
+#op-c2 {
+    background-color: #ffc400;
+}
+
+#op-c3 {
+    background-color: #ffc400;
+}
+
+#op-c4 {
+    background-color: #ffc400;
+}
+
+.card-img {
+    max-width: 400px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, .16), 0 2px 5px 0 rgba(0, 0, 0, .23);
+}
+
+#clients {
+    padding-top: 40px;
+    background-color: #f1f1f1;
+    max-width: 1279.98px;
+    margin: auto;
+    font-family: Roboto;
+}
+
+#services {
+    padding-top: 40px;
+    background-color: #f1f1f1;
+    max-width: 1279.98px;
+    margin: auto;
+    font-family: Roboto;
+}
+
+#contact {
+    padding-top: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+    max-width: 1279.98px;
+    background-color: #f1f1f1;
+}
+
+/* Code for Small Device content: '\f1ec'; */
+
+@media screen and (max-width:1000px) {
+    .navbar {
+        font-size: 0.9em;
+        height: auto;
+        text-indent: 20px;
+        /* text-transform: uppercase; */
+    }
+    .nav-link {
+        width: auto;
+        text-align: left;
+    }
+    #xtra {
+        display: none;
+    }
+    .navbar-toggler {
+        background-color: #06f0c9c0;
+    }
+    .resize_img {
+        max-width: 100px;
+        max-height: auto;
+    }
+    .navbar .dropdown-menu {
+        font-size: 0.9em;
+    }
+    h3 {
+        font-size: 1.1em;
+    }
+    p {
+        font-size: 0.9em;
+    }
+}

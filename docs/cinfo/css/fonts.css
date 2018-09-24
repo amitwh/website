@@ -1,0 +1,27 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*CSS File of Fonts for ConcreteInfo.in Website*/
+
+/*Created by Amit Haridas on 28-JAN-2018*/
+
+@font-face {
+    font-family: Abel;
+    src: url(../fonts/Abel-Regular.ttf);
+}
+
+
+
+@font-face {
+    font-family: Comfortaa;
+    src: url(../fonts/Comfortaa-Regular.ttf);
+}
+
+
+
+@font-face {
+    font-family: Cabin;
+    src: url(../fonts/Cabin-Regular.ttf);
+}
+
+

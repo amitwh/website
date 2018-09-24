@@ -1,0 +1,61 @@
+@charset"utf-8";
+/* CSS Document */
+
+/*CSS File of Fonts for Concrete OEM Website*/
+
+/*Created by Amit Haridas on 23-MAY-2018*/
+
+@font-face {
+    font-family: Abel;
+    src: url(../fonts/Abel-Regular.ttf);
+}
+
+@font-face {
+    font-family: Roboto;
+    src: url(../fonts/Roboto-Regular.ttf);
+}
+
+@font-face {
+    font-family: Comfortaa;
+    src: url(../fonts/Comfortaa-Regular.ttf);
+}
+
+@font-face {
+    font-family: Cabin;
+    src: url(../fonts/Cabin-Regular.ttf);
+}
+
+@font-face {
+    font-family: Opensans;
+    src: url(../fonts/OpenSans-Regular.ttf);
+}
+
+@font-face {
+    font-family: ProzaLibre;
+    src: url(../fonts/ProzaLibre-Regular.ttf);
+}
+
+@font-face {
+    font-family: Montserrat;
+    src: url(../fonts/Montserrat-Regular.ttf);
+}
+
+@font-face {
+    font-family: glyph1;
+    src: url(../fonts/glyphicons-halflings-regular.woff)
+}
+
+@font-face {
+    font-family: glyph2;
+    src: url(../fonts/glyphicons-halflings-regular.eot)
+}
+
+@font-face {
+    font-family: glyph3;
+    src: url(../fonts/glyphicons-halflings-regular.ttf)
+}
+
+@font-face {
+    font-family: Nunito;
+    src: url(../fonts/NunitoSans-Regular.ttf);
+}

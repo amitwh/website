@@ -1,0 +1,283 @@
+/* CSS file for Concrete OEM website,
+Created by Amit Haridas - 21-MAY-2017 */
+
+/*
+General CSS Settings affecting entire site */
+
+body {
+    background-color: #141414;
+}
+
+@media (max-width:1200px) {
+    .navbar {
+        background-color: #1d1d1dce;
+        font-family: Roboto;
+        font-size: 0.8em;
+        text-transform: uppercase;
+    }
+    .navbar .dropdown-menu {
+        font-size: 0.8em;
+    }
+}
+
+.navbar {
+    background-color: #010508;
+    font-family: Cabin;
+    text-transform: uppercase;
+}
+
+.navbar ul li a {
+    background-color: #010508;
+    color: #11c9f7;
+}
+
+.navbar ul li a:hover {
+    color: #fff06c;
+}
+
+.navbar .dropdown-menu {
+    background-color: #010508;
+    font-family: Cabin;
+    box-shadow: 0 2px 5px0 rgba(0, 0, 0, .16), 0 2px 5px 0 rgba(0, 0, 0, .23);
+}
+
+.navbar .dropdown-menu a:hover {
+    background-color: #1b1b1bea;
+}
+
+.container-fluid {
+    padding-top: 5em;
+}
+
+.carousel {
+    padding-top: 4em;
+}
+
+.carousel-item {
+    text-align: center;
+    background-color: #24262c;
+}
+
+.rmcps-card h5 {
+    color: #dc1414;
+    font-family: Cabin;
+}
+
+#rmcps .collapse .card-body {
+    font-family: Roboto;
+    font-size: 0.9em;
+    text-align: justify;
+}
+
+#aboutus {
+    background-color: #ede7f6;
+    font-family: Cabin;
+}
+
+#vision .card-header {
+    background-color: #3949ab;
+    color: white;
+    font-family: Cabin;
+    font-size: 1.1em;
+}
+
+#vision i {
+    color: #3949ab;
+}
+
+#values .card-header {
+    background-color: #5c6bc0;
+    color: white;
+    font-family: Cabin;
+    font-size: 1.1em;
+}
+
+#values i {
+    color: #5c6bc0;
+}
+
+#streng .card-header {
+    background-color: #7986cb;
+    color: white;
+    font-family: Cabin;
+    font-size: 1.1em;
+}
+
+#streng i {
+    color: #7986cb;
+}
+
+#oemc {
+    color: #eb2132;
+}
+
+.container-fluid h3 {
+    font-family: Nunito;
+    text-transform: uppercase;
+    text-decoration-line: underline;
+    color: #3d2aa5;
+}
+
+.container-fluid h4 {
+    font-family: Roboto;
+}
+
+.container-fluid p {
+    font-family: Cabin;
+}
+
+.card-header {}
+
+/* .card {
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, .16), 0 2px 5px 0 rgba(0, 0, 0, .23);
+} */
+
+.carousel-caption h1 {
+    color: #ece6e6;
+    font-size: 4vw;
+    text-shadow: 1px 1px 0 rgba(0, 0, 0, .75);
+}
+
+.carousel-caption {
+    position: absolute;
+    top: 60px;
+}
+
+#clinfo .card {
+    text-align: center;
+    max-width: 250px;
+    border-top: none;
+    border-right: none;
+    border-bottom: none;
+    border-left: none;
+}
+
+#cl-card .btn {
+    /* -webkit-animation-name: blinker;
+    -webkit-animation-duration: 1s;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-iteration-count: infinite; */
+}
+
+#products {
+    color: #141414;
+    background-color: #e2dae7;
+}
+
+#products h3 {
+    font-family: Nunito;
+    text-transform: uppercase;
+    text-decoration-line: underline;
+}
+
+#products .card-deck .card {
+    max-width: 300px;
+    border: none;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, .16), 0 2px 5px 0 rgba(0, 0, 0, .23);
+}
+
+#products .card-deck .card .card-body {
+    font-family: Roboto;
+    font-size: 0.8em;
+    text-align: justify;
+}
+
+#chp1 {
+    background-color: #dc1414;
+    color: white;
+}
+
+#chp2 {
+    background-color: #dc1461;
+    color: white;
+}
+
+#chp3 {
+    background-color: #82089b;
+    color: white;
+}
+
+#chp4 {
+    background-color: #6f0a9e;
+    color: white;
+}
+
+#chp5 {
+    background-color: #481cc2;
+    color: white;
+}
+
+#chp6 {
+    background-color: #139cbe;
+    color: white;
+}
+
+#chp7 {
+    background-color: #13beb5;
+    color: white;
+}
+
+#chp8 {
+    background-color: #13be7c;
+    color: white;
+}
+
+#services {
+    background-color: #e4e5e6;
+}
+
+#services .card {
+    max-width: 300px;
+}
+
+#services .card-deck .card .card-body {
+    font-family: Roboto;
+    font-size: 0.9em;
+    text-align: justify;
+}
+
+#chs1 {
+    background-color: #283593;
+    color: white;
+}
+
+#chs2 {
+    background-color: #CE1547;
+    color: white;
+}
+
+#chs3 {
+    background-color: #A8140A;
+    color: white;
+}
+
+#chs4 {
+    background-color: #032935;
+    color: white;
+}
+
+#chs5 {
+    background-color: #15A1CE;
+    color: white;
+}
+
+#chs6 {
+    background-color: #009B6C;
+    color: white;
+}
+
+#contact {
+    background-color: #dad7db
+}
+
+/* @-webkit-keyframes blinker {
+    0% {
+        opacity: 1.0;
+    }
+    50% {
+        opacity: 0.0;
+    }
+    100% {
+        opacity: 0.0;
+    }
+} */

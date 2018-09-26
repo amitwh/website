@@ -4,7 +4,7 @@
         <marker id="2" name="MTB4, ITPL" address="ITPL Gate No 3, Pattandur Agarahara, Bangalore" lat="12.9848640" lng="77.7368900" type="Plant"/>
         <marker id="3" name="Gateway Office Park" address="Gateway Office Parks Pvt. Ltd. No 16, GST Road, Perungalathur, Chennai-600110" lat="12.9012330" lng="80.0948300" type="Plant"/>
         <marker id="4" name="TCL, Ambattur" address="No 226, Red Hills Road, Kalikuppam, Chennai-600053" lat="13.1317440" lng="80.1674980" type="Plant"/>
-        <marker id="5" name="Narsapur" address="Narsapur, Karnataka" lat="-33.910751" lng="151.194168" type="Plant"/>
-        <marker id="6" name="ICS Office" address=" 186, 188, Erikarai Road, Kolaichery Village, Kundrathur, Chennai-600069" lat="-33.879917" lng="151.210449" type="Office"/>
+        <marker id="5" name="Narsapur" address="Narsapur, Karnataka" lat="13.1290772" lng="77.9903015" type="Plant"/>
+        <marker id="6" name="Integral Concrete Solutions" address=" 186, 188, Erikarai Road, Kolaichery Village, Kundrathur, Chennai-600069" lat="13.0065946" lng="80.0930927" type="Office"/>
     </markers>
 </xml>

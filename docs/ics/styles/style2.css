@@ -251,6 +251,11 @@ body {
     background-color: #f1f1f1;
 }
 
+#contact .card-header {
+    color: #ffc107;
+    background-color: #202c39;
+}
+
 /* Code for Small Device content: '\f1ec'; */
 
 @media screen and (max-width:1000px) {

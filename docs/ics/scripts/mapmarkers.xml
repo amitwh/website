@@ -1,0 +1,11 @@
+<xml>
+    <markers>
+        <marker id="1" name="Penukonda" address="S-155, B C Colony, Ammavarupalli Village, Munimadugu, Guttur, Penukonda, Ananthapur District, Andhra Pradesh - 515164" lat="14.1857650" lng="77.6261730" type="Plant"/>
+        <marker id="2" name="MTB4, ITPL" address="ITPL Gate No 3, Pattandur Agarahara, Bangalore" lat="12.9848640" lng="77.7368900" type="Plant"/>
+        <marker id="3" name="Gateway Office Park" address="Gateway Office Parks Pvt. Ltd. No 16, GST Road, Perungalathur, Chennai-600110" lat="12.9012330" lng="80.0948300" type="Plant"/>
+        <marker id="4" name="TCL, Ambattur" address="No 226, Red Hills Road, Kalikuppam, Chennai-600053" lat="13.1317440" lng="80.1674980" type="Plant"/>
+        <marker id="5" name="Narsapur" address="Narsapur, Karnataka" lat="-33.910751" lng="151.194168" type="Plant"/>
+        <marker id="6" name="ICS Registered Office" address="16 Foster Street, Surry Hills, NSW" lat="-33.879917" lng="151.210449" type="Office"/>
+        <marker id="7" name="Concrete OEM Pvt. Ltd." address="Concrete OEM Private Limited, 186, 188, Erikarai Road, Kolaichery Village, Kundrathur, Chennai-600 069" lat="-33.906357" lng="151.263763" type="Office"/>
+    </markers>
+</xml>

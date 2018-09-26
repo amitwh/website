@@ -35,6 +35,10 @@ body {
     text-align: center;
 }
 
+#ongoing .fas {
+    color: #efba47;
+}
+
 /* change the color of active or hovered links */
 
 .navbar-nav .nav-item.active .nav-link,
@@ -264,7 +268,11 @@ body {
         display: none;
     }
     .navbar-toggler {
-        background-color: #06f0c9c0;
+        background-color: #202c39;
+        color: #ffc107;
+    }
+    .navbar-toggler-icon {
+        color: #ffc107;
     }
     .resize_img {
         max-width: 100px;

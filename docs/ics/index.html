@@ -24,6 +24,7 @@
     <script src="scripts/popper.min.js"></script>
     <script src="scripts/tooltip.min.js"></script>
     <script src="scripts/bootstrap.min.js"></script>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDArFi9x-WXRxFXqt3s3_dlt438y1a31AI&callback=initMap"></script>
 </head>
 
 <body data-spy="scroll" data-target=".navbar" data-offset="50">
@@ -128,7 +129,7 @@
                     Our Operational expertise helps us in providing the most optimisied setup model for our customers,
                     while our technical expertise helps us in designing the right mix design for our customers.
                 </p>
-                <br>
+
             </div>
             <div id="vmv" class="card-group">
                 <div id="vision" class="card">
@@ -170,6 +171,7 @@
                             priority for us </p>
                     </div>
                 </div>
+
                 <div id="strength" class="card">
                     <div class="card-header text-center" data-toggle="tooltip" data-placement="top" title="Our Strength">Our
                         Strength </div>
@@ -190,6 +192,10 @@
                     </div>
                 </div>
             </div>
+            <br>
+            <p>We firmly believe that supplying the right quality and type of concrete to meet the project demands
+                in Quality Requirements, Cost and Schedule can help the project achieve the optimum Quality,
+                Economy and delivery timelines, and that's where the ICS expertise can help you further.</p>
             <br>
         </div>
         <div id=projects class="container-fluid">
@@ -216,14 +222,16 @@
                                             alt="MTB4">
                                     </div>
                                     <div class="col">
-                                        <p>ICS has setup it's captive plant for MTB4 at ITPL, Bangalore. The project
+                                        <p>Being ICS's first captive plant, We have a special relationship with the
+                                            MTB4 project which is based at ITPL, Bangalore. <br>
+                                            The plant has been setup for L&W Constructions Pvt. Ltd. <br>
+                                            The project
                                             requirements are about 35000 cum and we have already crossed about 80%
                                             volume
                                             of the projects requirement till date.</p>
                                         <p>ITPL is a landmark in the IT hub of Bangalore and ICS is proud to be a part
                                             of
                                             the latest tower construction in the Tech Park.</p>
-
                                     </div>
                                 </div>
                             </div>
@@ -284,8 +292,12 @@
                             <div class="card-body">
                                 <div class="row">
                                     <div class="col">
-                                        ICS has also commence supplies for the upcoming tata communications project in
-                                        Chennai
+                                        <p>ICS has setup it's second captive readymixed concrete plant in Chennai to
+                                            cater for the concrete requirements of "Proposed Office & IDC building" for
+                                            Tata Communications Limited at their Ambattur Campus</p>
+                                        <p>The approximate quantity for the project is about 25000 cubic metres of
+                                            concerete</p>
+                                        <p>The plant has been setup for L&W Constructions Pvt. Ltd.</p>
                                     </div>
                                     <div class="col-sm-4"><img class="card-img mx-auto" src="images/final_photos/kia_1.jpg"
                                             alt="Kia-Motors"></div>
@@ -325,7 +337,18 @@
                 <div id="clie" class="card-header">Our Valuable Clients:</div>
                 <div class="card">
                     <div class="card-header">
-
+                        <div id="cllist1" class="card-deck justify-content-center">
+                            <br>
+                            <div class="card mx-auto">
+                                <img class="card-img mx-auto" src="images/logo/srr.png" alt="">
+                            </div>
+                            <div class="card mx-auto">
+                                <img class="card-img mx-auto " src="images/cl_logo/doshi.png" alt="">
+                            </div>
+                            <div class="card mx-auto">
+                                <img src="images/cl_logo/Dugar.png" alt="" class="card-img">
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -408,7 +431,9 @@
                         <br>
                         <br>
                         <p></p>
-                        <p></p>
+                        <p>
+                            <div id="map" style="width:400px;height:400px"></div>
+                        </p>
 
 
 
@@ -471,6 +496,16 @@
     }
     hourglass();
     setInterval(hourglass, 3000);
+    // Google Map Script
+    function initMap() {
+        // The location of Uluru
+        var uluru = { lat: -25.344, lng: 131.036 };
+        // The map, centered at Uluru
+        var map = new google.maps.Map(
+            document.getElementById('map'), { zoom: 4, center: uluru });
+        // The marker, positioned at Uluru
+        var marker = new google.maps.Marker({ position: uluru, map: map });
+    }
 </script>
 
 </html>

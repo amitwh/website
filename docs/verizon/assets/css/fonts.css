@@ -1,0 +1,21 @@
+/* Font Configuration file for ICS website */
+
+/* Created by Amit Haridas @ concreteinfo.in on 15-SEp-2019  */
+
+/* Fonts Used in website Roboto,Cabin, NunitoSans,OpenSans,ProzaLibre
+ */
+
+@font-face {
+    font-family: Cabin;
+    src: url(../fonts/Cabin-Regular.ttf);
+}
+
+@font-face {
+    font-family: Abel;
+    src: url(../fonts/Abel-Regular.ttf);
+}
+
+@font-face {
+    font-family: Roboto;
+    src: url(../fonts/Roboto-Regular.ttf);
+}

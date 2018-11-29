@@ -201,6 +201,10 @@ body {
     box-shadow: 0 1px 1.5px 0 rgba(0, 0, 0, .12), 0 1px 1px 0 rgba(0, 0, 0, .24);
 }
 
+#projects .nav .nav-item {
+    background-color: #f8ed58;
+}
+
 #op-c1 {
     background-color: #ffc400;
 }
@@ -256,8 +260,41 @@ body {
     background-color: #202c39;
 }
 
+#contact .nav {
+    border: none;
+}
+
+#contact .tab-content .tab-pane {}
+
+#contact .nav .nav-item {
+    background-color: #f8ed58;
+}
+
+#bg .card .card-header,
+#penu .card .card-header,
+#chennai .card .card-header {
+    background-color: #48505a;
+    color: #ffc107;
+}
+
+#bg .card .card-body,
+#penu .card .card-body,
+#chennai .card .card-body {
+    background-color: #f8f8f8;
+}
+
 #clients .card {
     background-color: transparent;
+}
+
+#chs3 {
+    background-color: #fdd835;
+    color: black;
+}
+
+#chs2 {
+    background-color: #ffa000;
+    color: black;
 }
 
 #clients .card-img {

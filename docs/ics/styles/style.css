@@ -183,7 +183,16 @@ body {
     background-color: #f1f1f1;
 }
 
-#contact .card-header {
+/* #contact .card-header {
+    background-color: #ffc107;
+} */
+
+#contact .nav,
+.tab-content .tab-pane {
+    border: none;
+}
+
+#bg .card .card-header {
     background-color: #ffc107;
 }
 

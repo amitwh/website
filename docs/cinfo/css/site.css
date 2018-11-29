@@ -5,9 +5,9 @@ div|body {
     position: relative;
 }
 
-/* html { 
-   
-  background: Url(images/bg.jpg) no-repeat center center fixed; 
+/* html {
+
+  background: Url(images/bg.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -15,95 +15,94 @@ div|body {
 } */
 
 img.bg {
-  /* Set rules to fill background */
-  min-height: 100%;
-  min-width: 1024px;
-	filter: blur(3px) grayscale(1);
-  /* Set up proportionate scaling */
-  width: 100%;
-  height: auto;
-	
-  /* Set up positioning */
-  position: fixed;
-  top: 0;
-  left: 0;
+    /* Set rules to fill background */
+    min-height: 100%;
+    min-width: 1024px;
+    filter: blur(3px) grayscale(1);
+    /* Set up proportionate scaling */
+    width: 100%;
+    height: auto;
+    /* Set up positioning */
+    position: fixed;
+    top: 0;
+    left: 0;
 }
-@media screen and (max-width: 1024px) { /* Specific to this particular image */
-  img.bg {
-    left: 50%;
-    margin-left: -512px;   /* 50% */
-  }
+
+@media screen and (max-width: 1024px) {
+    /* Specific to this particular image */
+    img.bg {
+        left: 50%;
+        margin-left: -512px;
+        /* 50% */
+    }
 }
-div.card{
+
+div.card {
     background-color: transparent;
     border-color: transparent;
-   }
+}
 
-
-#launch{
+#launch {
     text-align: center;
-    color:black;
+    color: black;
     font-size: 20pt;
     background-color: rgba(247, 190, 84, 0.637);
 }
 
-#b{
-  /*   font-family: Abel;
+#b {
+    /*   font-family: Abel;
     color:black;
     font-size: 12pt;
     background-color: rgba(222, 228, 218, 0.315); */
-
     font-family: Abel;
-    color:whitesmoke;
-    /* font-size:12pt; */
-    background-color: rgba(52, 53, 53, 0.411);
-}
-#a{
-    font-family: Abel;
-    color:whitesmoke;
+    color: whitesmoke;
     /* font-size:12pt; */
     background-color: rgba(52, 53, 53, 0.411);
 }
 
-
-#title{
-/* background-color:transparent; */
-background-color: rgba(0, 0, 0, 0.637);
-color:whitesmoke;
-font-size: 26pt;
-text-align: center;
-font-family: Comfortaa;
-
+#a {
+    font-family: Abel;
+    color: whitesmoke;
+    /* font-size:12pt; */
+    background-color: rgba(52, 53, 53, 0.411);
 }
 
-#lb{
-     font-family: Cabin;
-    text-align: center;
-    color:whitesmoke;
+#title {
+    /* background-color:transparent; */
     background-color: rgba(0, 0, 0, 0.637);
-       
+    color: whitesmoke;
+    font-size: 26pt;
+    text-align: center;
+    font-family: Comfortaa;
 }
 
-div.card-footer{
-     font-family: Cabin;
+#lb {
+    font-family: Cabin;
+    text-align: center;
+    color: whitesmoke;
+    background-color: rgba(0, 0, 0, 0.637);
+}
+
+div.card-footer {
+    font-family: Cabin;
     background-color: rgba(0, 0, 0, 0.637);
     color: mediumspringgreen;
 }
 
 /* #bg {
-  position: fixed; 
-  top: -50%; 
-  left: -50%; 
-  width: 100%; 
+  position: fixed;
+  top: -50%;
+  left: -50%;
+  width: 100%;
   height: 100%;
 }
 #bg img {
-  position: absolute; 
-  top: 0; 
-  left: 0; 
-  right: 0; 
-  bottom: 0; 
-  margin: auto; 
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
   min-width: 50%;
   min-height: 50%;
 } */

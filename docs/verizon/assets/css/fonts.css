@@ -19,3 +19,13 @@
     font-family: Roboto;
     src: url(../fonts/Roboto-Regular.ttf);
 }
+
+@font-face {
+    font-family: Julius;
+    src: url(../fonts/JuliusSansOne-Regular.ttf);
+}
+
+@font-face {
+    font-family: Raleway;
+    src: url(../fonts/Raleway-Regular.ttf);
+}

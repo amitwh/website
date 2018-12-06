@@ -1,6 +1,7 @@
 body {
     font-family: Roboto;
-    background-color: #000000;
+    /*     background-color: #000000; */
+    background-color: #000407;
 }
 
 @media all and (max-width: 1690px) {
@@ -15,12 +16,12 @@ body {
         margin: auto;
         font-family: Cabin;
         padding: 0 !important;
-        background-color: #ffffff;
         box-shadow: 0 1px 1.5px 0 rgba(0, 0, 0, .12), 0 1px 1px 0 rgba(0, 0, 0, .24);
-        color: black;
+        color: rgb(241, 235, 235);
+        background-color: #202c39;
     }
     .nav-link {
-        color: #0c0b0c;
+        color: #e9e8e9;
         width: 100px;
         text-align: center;
     }
@@ -180,16 +181,17 @@ h2 {
 }
 
 #about {
-    padding-top: 40px;
-    background-color: #130d18;
+    padding-top: 50px;
+    /*  background-color: #130d18; */
+    background-color: #ecf023;
     margin: auto;
-    color: whitesmoke;
+    color: rgb(0, 0, 0);
     font-family: Raleway;
 }
 
 #contact {
     padding-top: 40px;
-    background-color: #a1aaa9;
+    background-color: #0e0f0f;
     margin: auto;
     color: whitesmoke;
     font-family: Raleway;

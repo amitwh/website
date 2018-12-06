@@ -21,7 +21,6 @@
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
     crossorigin="anonymous">
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-
   <!-- Scripts for Website -->
   <script src="assets/js/jquery-3.3.1.min.js"></script>
   <script src="assets/js/bootstrap.bundle.min.js"></script>
@@ -30,10 +29,10 @@
   <script src="assets/js/intention.js"></script>
   <script src="assets/js/jQuery.menutron.min.js"></script>
   <script src="assets/js/tooltip.js" crossorigin="anonymous"></script>
-
 </head>
 
-<body>
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
+  <!-- Nav bar for the Website -->
   <nav class="navbar navbar-expand-lg justify-content-center fixed-top">
     <a class="navbar-brand mr-auto" href="#">
       <img class="resize_img" id="logo" src="assets/images/logo_nav.jpg" alt="Verizon Infrastructures">
@@ -55,14 +54,8 @@
       </ul>
     </div>
   </nav>
-
-
+  <!-- Carousel Settings (Carousel-fade for fade effect instead of slide) and animate.css-->
   <div id="carouselId" class="carousel slide carousel-fade" data-ride="carousel">
-    <!-- <ol class="carousel-indicators">
-      <li data-target="#carouselId" data-slide-to="0" class="active"></li>
-      <li data-target="#carouselId" data-slide-to="1"></li>
-      <li data-target="#carouselId" data-slide-to="2"></li>
-    </ol> -->
     <div class="carousel-inner" role="listbox">
       <div class="carousel-item active">
         <img src="assets/images/caro-1.jpg" alt="First slide">
@@ -112,7 +105,7 @@
   </div>
 
 
-  <div class="container-fluid" id="about">
+  <div class="container-fluid animated fadeInUp" id="about">
     <h2>
       About Us:
     </h2>

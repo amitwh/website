@@ -4,7 +4,7 @@ body {
     background-color: #000407;
 }
 
-@media all and (max-width: 1690px) {
+@media all and (max-width: 1920px) {
     #main,
     #about,
     #carouselId,
@@ -127,8 +127,8 @@ body {
 }
 
 .navbar-nav .nav-link.active {
-    color: #ffc107;
-    background-color: #202c39;
+    color: #ffffff;
+    background-color: #f80b3e;
     box-shadow: 0 1px 1.5px 0 rgba(0, 0, 0, .12), 0 1px 1px 0 rgba(0, 0, 0, .24);
 }
 
@@ -142,8 +142,9 @@ body {
 }
 
 .carousel {
-    padding-top: 40px;
+    padding-top: 100px;
     margin: auto;
+    max-height: 100vh;
 }
 
 img {

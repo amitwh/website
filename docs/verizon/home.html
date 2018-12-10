@@ -11,14 +11,14 @@
   <link rel="stylesheet" type="text/css" media="screen" href="assets/css/chartist.min.css">
   <link rel="stylesheet" type="text/css" media="screen" href="assets/css/glide.core.min.css">
   <link rel="stylesheet" type="text/css" media="screen" href="assets/css/glide.theme.min.css">
-  <link rel="stylesheet" type="text/css" media="screen" href="assets/css/normalize.css">
+  <!-- <link rel="stylesheet" type="text/css" media="screen" href="assets/css/normalize.css"> -->
   <!-- <link rel="stylesheet" type="text/css" media="screen" href="assets/css/skeleton.css"> -->
   <link rel="stylesheet" type="text/css" media="screen" href="assets/css/transitions.css">
   <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css">
   <link rel="stylesheet" type="text/css" media="screen" href="assets/css/animate.css">
   <!-- <link rel="stylesheet" type="text/css" media="screen" href="assets/css/anime.css"> -->
   <link rel="stylesheet" type="text/css" media="screen" href="assets/css/fonts.css">
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU"
     crossorigin="anonymous">
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <!-- Scripts for Website -->
@@ -29,6 +29,8 @@
   <script src="assets/js/intention.js"></script>
   <script src="assets/js/jQuery.menutron.min.js"></script>
   <script src="assets/js/tooltip.js" crossorigin="anonymous"></script>
+  <script src="assets/js/verizon.js"></script>
+
 </head>
 
 <body data-spy="scroll" data-target=".navbar" data-offset="50">
@@ -45,8 +47,8 @@
       <ul class="navbar-nav ml-auto">
         <li class="nav-item"><a class="nav-link" href="#carouselId">Home<span class="sr-only">(current)</span></a>
         </li>
-        <li class="nav-item"><a class="nav-link" href="#about">About Us</a></li>
-        <li class="nav-item"><a class="nav-link" href="#Projects">Projects</a></li>
+        <li class="nav-item" id="ab"><a class="nav-link" id="abc" href="#about">About Us</a></li>
+        <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
         <li class="nav-item"><a class="nav-link" href="#clients">Clients</a></li>
         <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
         <li class="nav-item"><a class="nav-link" href="#services">Our Team</a></li>
@@ -62,13 +64,19 @@
         <div class="carousel-caption">
           <div class="animated fadeInLeftBig delay-1s">
             <h1>Land Development Projects</h1>
-            <p>Large Scale land development projects</p>
+            <p>We have done large scale land development works</p>
           </div>
         </div>
       </div>
       <div class="carousel-item">
         <div class="animated fadeIn">
           <img src="assets/images/caro-2.jpg" alt="Second slide">
+          <div class="carousel-caption">
+            <div class="animated fadeInLeftBig delay-1s">
+              <h1>Infrastructure Development</h1>
+              <p>We have done large scale land development works</p>
+            </div>
+          </div>
         </div>
       </div>
       <div class="carousel-item">
@@ -106,32 +114,180 @@
 
 
   <div class="container-fluid animated fadeInUp" id="about">
-    <h2>
-      About Us:
-    </h2>
+
+    <div class="animated fadeInLeftBig delay-3s">
+      <h2>
+        <i class="fa fa-angle-double-right" aria-hidden="true"></i>
+        About Us:
+      </h2>
+    </div>
+    <div class="animated bounceInDown delay-10s">
+      <p>Verizon infrastructure was established in year 2012 and since then we have grown from strength to strength.
+        The name Verizon combines the Latin word veritas, meaning truth, with the word horizon which indicates a new
+        begining</p>
+      <p>Since our inception we have been providing our customers Quality</p>
+      <p>We specialise in Industrial constructions, Land Development, MEP Design and execution services</p>
+      <p>We proud ourselves in being </p>
+
+    </div>
+    <div class="card-deck" id="vmv">
+      <div class="card" id="vision">
+        <div class="card-header" id="vist">Vision</div>
+        <div class="card-body">
+          <p><i class="fas fa-angle-double-right">
+              Integrity, Transparency & Conviction
+            </i></p>
+          <p><i class="fas fa-angle-double-right">
+              Accountability and Trustworthiness
+            </i></p>
+        </div>
+      </div>
+
+      <div class="card" id="mission">
+        <div class="card-header" id="mist">Mission</div>
+        <div class="card-body">
+        </div>
+      </div>
+
+
+      <div class="card" id="values">
+        <div class="card-header" id="valt">Values</div>
+        <div class="card-body">
+        </div>
+      </div>
+
+
+    </div>
+    <div class="animated bounceInDown delay-10s">
+
+    </div>
+    <br>
+
+  </div>
+
+
+  <div class="container-fluid animated fadeInUp" id="projects">
+
+    <div class="animated fadeInLeftBig delay-5s">
+      <h2>
+        <i class="fa fa-angle-double-right" aria-hidden="true"></i>
+        Projects
+      </h2>
+    </div>
     <p>Verizon infrastructure was established in year 2012 and since then we have grown from strength to strength.
       The name Verizon combines the Latin word veritas, meaning truth, with the word horizon which indicates a new
       begining</p>
-    <p>We specialise in Industrial constructions</p>
+    <p>Since our inception we have been providing our customers Quality</p>
+    <p>We specialise in Industrial constructions, Land Development, MEP Design and execution services</p>
+    <p>We proud ourselves in being </p>
+    <div class="card-group" id="proja">
+      <div class="card" id="pr1">
+        <img src="assets/images/Picture1.png" alt="JSWMIr" class="card-img">
+        <div class="overlay">
+          <div class="card-header" id="p1">JSWMI</div>
+          <div class="card-body">
+            <h5>Land Grading, Civil & Machinery Foundations, VDF, Internal Roads, Compound Wall, Retaining Wall</h5>
+            <br>
+            Project Cost : 5.72 Crore
+            <br>
+            Project Tenure : 9 Months
+            <br>
+            Area : 110000 sq.ft
+            <br>
+            Plot Area : 16 Acres
+            <br>
+            Project Completion Timelines : Completed within the timeframe.
+          </div>
+        </div>
+      </div>
+      <div class="card" id="pr2">
+        <img src="assets/images/Picture9.png" alt="JSWMIr" class="card-img">
+        <div class="overlay">
+          <div class="card-header" id="p2">Dexel Plasto</div>
+          <div class="card-body">
+            <h5>Structural design, Civil & Structural work including VDF</h5>
+            <p>Project Cost : 1.67 Crore
+              <br>
+              Project Tenure : 5 Months
+              <br>
+              Construction Area : 21000 sq.ft
+              <br>
+              Plot Area : 2.4 Acre
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="card" id="pr3">
+        <img src="assets/images/Picture2.png" alt="Sunil" class="card-img">
+        <div class="overlay">
+          <div class="card-header" id="p3">Sunil Industries</div>
+          <div class="card-body">
+            <h5>Structural design, Civil & Structural work including VDF</h5>
+            <p>Project Cost : 1.45 Crore
+              <br>
+              Project Tenure : 4 Months
+              <br>
+              Construction Area : 18000 sq.ft
+              <br>
+              Plot Area : 2.4 Acre
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="card-group" id="proj2">
+      <div class="card" id="pr4">
+        <img src="assets/images/bodhavji.jpg" alt="JSWMIr" class="card-img">
+        <div class="overlay">
+          <div class="card-header" id="p4">B Odhavji & Company</div>
+          <div class="card-body"></div>
+        </div>
+      </div>
+      <div class="card" id="pr4">
+        <img src="assets/images/Picture4.png" alt="JSWMIr" class="card-img">
+        <div class="overlay">
+          <div class="card-header" id="p4">Maxion Wheels</div>
+          <div class="card-body"></div>
+        </div>
+      </div>
+      <div class="card" id="pr4">
+        <img src="assets/images/Picture4.png" alt="JSWMIr" class="card-img">
+        <div class="overlay">
+          <div class="card-header" id="p4">Proj1</div>
+          <div class="card-body"></div>
+        </div>
+      </div>
+    </div>
+    <br>
 
   </div>
 
-  <div class="container-fluid" id="abouta">
-    <div class="card">
-      <div class="card-header">Hello</div>
-      <div class="card-body">Amazing</div>
+  <div class="container-fluid" id="services">
+    <div class="animated fadeInLeftBig delay-5s">
+      <h2>
+        <i class="fa fa-angle-double-right" aria-hidden="true"></i>
+        Services
+      </h2>
     </div>
   </div>
 
-  <div class="container-fluid" id="projects"></div>
-  <div class="container-fluid" id="clients"></div>
+  <div class="container-fluid" id="clients">
+    <div class="animated fadeInLeftBig delay-5s">
+      <h2>
+        <i class="fa fa-angle-double-right" aria-hidden="true"></i>
+        Valueable Clients
+      </h2>
+    </div>
+  </div>
 
   <div class="container-fluid mx-auto" id="team">
     <div class="card-group mx-auto" id="team">
       <div class="card mx-auto" id="1">
         <div class="card-header" id="1a">Shatrughna Vighe</div>
-        <div class="cad-body" id="teambody">Chief Managing Director of Verizon Infrastruture Pvt. Ltd. Shatrughna, with
-          his hardwork, Quality and Timely works has completed work has driven the company to </div>
+        <div class="cad-body" id="teambody">Chief Managing Director of Verizon Infrastruture Pvt. Ltd. Shatrughna,
+          with
+          his hardwork, Quality and key understanding of nuances of Industrial Projects has has driven the company to
+          be a respected name in the field of small scale Industrial Construction projects </div>
       </div>
       <div class="card mx-auto" id="2">
         <div class="card-header" id="2a">Shatrughna Vighe</div>

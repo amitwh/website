@@ -52,12 +52,12 @@ body {
         margin: auto;
         font-family: Cabin;
         padding: 0 !important;
-        background-color: #ffffffe8;
         box-shadow: 0 1px 1.5px 0 rgba(0, 0, 0, .12), 0 1px 1px 0 rgba(0, 0, 0, .24);
-        color: black;
+        color: rgb(241, 235, 235);
+        background-color: #202c39;
     }
     .nav-link {
-        color: #0c0b0c;
+        color: #e4e4e4;
         width: 100px;
         text-align: center;
     }
@@ -65,7 +65,7 @@ body {
         font-size: 1.8rem;
     }
     p {
-        font-size: 1.1em;
+        font-size: 1.0em;
     }
     .card-header {
         font-family: Julius;
@@ -73,7 +73,7 @@ body {
     }
     .card-body {
         font-family: Cabin;
-        font-size: 1.1em;
+        font-size: 1.0em;
     }
     h5 {
         font-size: 1.2em;
@@ -92,24 +92,25 @@ body {
         margin: auto;
         font-family: Roboto;
         padding: 0 !important;
-        background-color: #ffffff;
         box-shadow: 0 1px 1.5px 0 rgba(0, 0, 0, .12), 0 1px 1px 0 rgba(0, 0, 0, .24);
-        color: black;
+        color: rgb(241, 235, 235);
+        background-color: #202c39;
     }
     .nav-link {
-        color: #0c0b0c;
-        text-align: left;
+        color: #e4e4e4;
+        text-align: right;
+        padding-right: 20px;
         width: auto;
     }
     h1 {
-        font-size: 1.4em;
+        font-size: 1.2em;
     }
     p {
-        font-size: 0.8em;
+        font-size: 0.7em;
     }
     .card-header {
         font-family: Julius;
-        font-size: 1.3em;
+        font-size: 1.1em;
     }
     .card-body {
         font-family: Cabin;
@@ -121,14 +122,16 @@ body {
 }
 
 @media all and (max-width: 736px) {
+    .navbar {}
     .nav-link {
-        color: #0c0b0c;
+        color: #e4e4e4;
+        text-align: right;
     }
     h1 {
-        font-size: 1.2em;
+        font-size: 1.0em;
     }
     p {
-        font-size: 1em;
+        font-size: 0.6em;
     }
     .card-header {
         font-family: Julius;

@@ -14,6 +14,12 @@ body {
     background-color: #000407;
 }
 
+hr {
+    width: auto;
+    color: #455a64;
+    background-color: #455a64;
+}
+
 #rotate {
     font-family: Cabin;
     text-transform: uppercase;
@@ -47,11 +53,11 @@ body {
     }
     .card-header {
         font-family: Julius;
-        font-size: 1.6em;
+        font-size: 1.5em;
     }
     .card-body {
         font-family: Raleway;
-        font-size: 1.0em;
+        font-size: 1.1em;
     }
     h5 {
         font-size: 1.4em;
@@ -80,14 +86,14 @@ body {
         text-align: center;
     }
     h1 {
-        font-size: 1.8rem;
+        font-size: 1.5rem;
     }
     p {
         font-size: 1.0em;
     }
     .card-header {
         font-family: Julius;
-        font-size: 1.4em;
+        font-size: 1.2em;
     }
     .card-body {
         font-family: Raleway;
@@ -124,15 +130,15 @@ body {
         font-size: 1.2em;
     }
     p {
-        font-size: 0.8em;
+        font-size: 1em;
     }
     .card-header {
         font-family: Julius;
-        font-size: 1.0em;
+        font-size: 0.9rem;
     }
     .card-body {
         font-family: Raleway;
-        font-size: 0.8em;
+        font-size: 0.9em;
     }
     h5 {
         font-size: 1.0em;
@@ -143,31 +149,31 @@ body {
     .navbar {}
     .nav-link {
         color: #e4e4e4;
-        text-align: right;
+        text-align: center;
     }
     h1 {
         font-size: 1.0em;
     }
     p {
-        font-size: 0.7em;
+        font-size: 1.0em;
     }
     .card-header {
         font-family: Julius;
-        font-size: 0.9em;
+        font-size: 1em;
     }
     .card-body {
         font-family: Raleway;
-        font-size: 0.7em;
+        font-size: 0.9em;
     }
     h5 {
-        font-size: 0.8em;
+        font-size: 1em;
     }
 }
 
 @media all and (max-width: 480px) {}
 
 .container-fluid {
-    padding-top: 40px;
+    padding-top: 50px;
 }
 
 .container {
@@ -343,29 +349,13 @@ img.sticky {
     font-size: 2.0rem;
 } */
 
-#p1 {
-    background-color: #d2931e;
-}
-
-#p2 {
-    background-color: #f8923f;
-}
-
-#p3 {
-    background-color: #fd5656;
-}
-
-#p4 {
-    background-color: #1e7bd2;
-}
-
-#p5 {
-    background-color: #1eb7d2;
-}
-
 .card-body {
     background-color: #d6d1d1;
     color: #0f0e0e;
+}
+
+.card-header {
+    text-align: center;
 }
 
 #services {
@@ -390,4 +380,13 @@ img.sticky {
 .card {
     background-color: #0f0e0e;
     max-width: 400px;
+}
+
+.card img {
+    max-width: auto;
+    /* max-height: 267px; */
+}
+
+.card-title {
+    background-color: #d35050;
 }

@@ -353,7 +353,7 @@ img.sticky {
 
 /* These are the settings for the project overlay effect */
 
-.card-img-top {
+#projects .card-img-top {
     display: block;
     /* width: 100%; */
     height: 100%;

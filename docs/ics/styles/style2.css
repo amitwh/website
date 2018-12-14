@@ -17,6 +17,7 @@ body {
     margin: auto;
     font-family: Roboto;
     background-color: rgba(7, 0, 10, 0.918);
+    padding-top: 40px;
 }
 
 .navbar {
@@ -186,7 +187,7 @@ body {
     text-align: center;
 }
 
-#projects .nav-item.active .nav-link,
+.nav-item.active .nav-link,
 #projects .nav-item:hover .nav-link {
     background-color: #ef476f;
     color: white;

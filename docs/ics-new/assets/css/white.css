@@ -232,8 +232,8 @@ hr {
 
 .navbar-nav .nav-item.active .nav-link,
 .navbar-nav .nav-item:hover .nav-link {
-    background-color: #3e7a94;
-    color: white;
+    background-color: #fdee17;
+    color: rgb(0, 0, 0);
     -moz-animation: cubic-bezier(0.075, 0.82, 0.165, 1);
     animation-fill-mode: forwards;
     -webkit-animation: cubic-bezier(0.165, 0.84, 0.44, 1);
@@ -242,7 +242,7 @@ hr {
 
 .navbar-nav .nav-link.active {
     color: #e6e6e6;
-    background-color: #184757;
+    background-color: #161616;
     box-shadow: 0 1px 1.5px 0 rgba(0, 0, 0, .12), 0 1px 1px 0 rgba(0, 0, 0, .24);
 }
 
@@ -320,19 +320,18 @@ h5 {
     text-align: center;
     width: 100%;
     color: rgb(241, 235, 235);
-    /* background-color: #161616; */
-    background-color: #184757;
+    background-color: #161616;
 }
 
 #mist {
     text-align: center;
     width: 100%;
     color: rgb(241, 235, 235);
-    background-color: #184757;
+    background-color: #161616;
 }
 
 #valt {
-    background-color: #184757;
+    background-color: #161616;
     text-align: center;
     color: rgb(241, 235, 235);
     width: 100%;
@@ -389,18 +388,14 @@ img.sticky {
 } */
 
 .card-body {
-    background-color: #e2e1e1;
+    background-color: #d6d1d1;
     color: #0f0e0e;
 }
 
 .card-header {
     text-align: center;
-    background-color: #184757;
+    background-color: #161616;
     color: rgb(241, 235, 235);
-}
-
-#contact .card-header {
-    text-align: left;
 }
 
 #services {

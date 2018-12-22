@@ -1,0 +1,60 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/node',
+1 verbose cli   '/usr/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   'popper.js',
+1 verbose cli   '--save' ]
+2 info using npm@3.5.2
+3 info using node@v8.10.0
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 silly fetchPackageMetaData popper.js
+8 silly fetchOtherPackageData popper.js
+9 silly cache add args [ 'popper.js', null ]
+10 verbose cache add spec popper.js
+11 silly cache add parsed spec Result {
+11 silly cache add   raw: 'popper.js',
+11 silly cache add   scope: null,
+11 silly cache add   name: null,
+11 silly cache add   rawSpec: 'popper.js',
+11 silly cache add   spec: '/home/amit/android/website/verizon/assets/js/popper.js',
+11 silly cache add   type: 'local' }
+12 silly addLocalTarball shasum (computed) 8f91c7cd3c093124cf21f57c2f1e43f5130e16f1
+13 verbose addTmpTarball /home/amit/android/website/verizon/assets/js/popper.js not in flight; adding
+14 verbose makeDirectory /home/amit/.npm creation not in flight; initializing
+15 silly makeDirectory /home/amit/.npm uid: 1000 gid: 1000
+16 verbose addTmpTarball validating metadata from /home/amit/android/website/verizon/assets/js/popper.js
+17 verbose tar unpack /home/amit/android/website/verizon/assets/js/popper.js
+18 verbose tar unpacking to /tmp/npm-8890-6010c7f5/unpack-5136f260
+19 silly gentlyRm /tmp/npm-8890-6010c7f5/unpack-5136f260 is being purged
+20 verbose gentlyRm don't care about contents; nuking /tmp/npm-8890-6010c7f5/unpack-5136f260
+21 silly gunzTarPerm modes [ '775', '664' ]
+22 error not a package /home/amit/android/website/verizon/assets/js/popper.js
+23 error addLocal Could not install /home/amit/android/website/verizon/assets/js/popper.js
+24 silly fetchPackageMetaData Error: ENOENT: no such file or directory, open '/tmp/npm-8890-6010c7f5/unpack-5136f260/package.json'
+24 silly fetchPackageMetaData  error for popper.js { Error: ENOENT: no such file or directory, open '/tmp/npm-8890-6010c7f5/unpack-5136f260/package.json'
+24 silly fetchPackageMetaData   errno: -2,
+24 silly fetchPackageMetaData   code: 'ENOENT',
+24 silly fetchPackageMetaData   syscall: 'open',
+24 silly fetchPackageMetaData   path: '/tmp/npm-8890-6010c7f5/unpack-5136f260/package.json' }
+25 silly rollbackFailedOptional Starting
+26 silly rollbackFailedOptional Finishing
+27 silly runTopLevelLifecycles Starting
+28 silly runTopLevelLifecycles Finishing
+29 silly install printInstalled
+30 verbose stack Error: ENOENT: no such file or directory, open '/tmp/npm-8890-6010c7f5/unpack-5136f260/package.json'
+31 verbose cwd /home/amit/android/website/verizon/assets/js
+32 error Linux 4.15.0-42-generic
+33 error argv "/usr/bin/node" "/usr/bin/npm" "install" "popper.js" "--save"
+34 error node v8.10.0
+35 error npm  v3.5.2
+36 error path /tmp/npm-8890-6010c7f5/unpack-5136f260/package.json
+37 error code ENOENT
+38 error errno -2
+39 error syscall open
+40 error enoent ENOENT: no such file or directory, open '/tmp/npm-8890-6010c7f5/unpack-5136f260/package.json'
+41 error enoent ENOENT: no such file or directory, open '/tmp/npm-8890-6010c7f5/unpack-5136f260/package.json'
+41 error enoent This is most likely not a problem with npm itself
+41 error enoent and is related to npm not being able to find a file.
+42 verbose exit [ -2, true ]

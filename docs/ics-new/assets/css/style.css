@@ -1,0 +1,24 @@
+body {
+    /*     background-color: #000000; */
+    background-color: #000407;
+    font-family: Raleway;
+}
+
+hr {
+    width: auto;
+    color: #455a64;
+    background-color: #455a64;
+}
+
+#toplogo img {
+    max-width: 100px;
+}
+
+#toplogo {
+    background-color: white;
+}
+
+marquee {
+    color: rgb(14, 13, 13);
+    font-size: 1.2em;
+}

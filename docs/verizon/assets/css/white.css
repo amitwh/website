@@ -454,3 +454,7 @@ img.sticky {
     /* background-image: url("../images/backtest.png"); */
     background-size: 100%;
 }
+
+#map {
+    width: 100%;
+}

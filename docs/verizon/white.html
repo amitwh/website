@@ -61,23 +61,28 @@
   <div id="carouselId" class="carousel slide carousel-fade" data-ride="carousel">
     <div class="carousel-inner" role="listbox">
       <div class="carousel-item active">
-        <img src="assets/images/caro-1.jpg" alt="First slide">
+        <div class="animated fadeInUpBig">
+          <img src="assets/images/caro-4.jpeg" alt="Third slide"></div>
         <div class="carousel-caption">
-          <div class="animated fadeInLeftBig delay-1s">
-            <h1>Land Development Projects</h1>
-            <p>Machinery and Technical competency to undertake large scale construction projects</p>
+          <div class="animated fadeInRightBig delay-1s">
+            <h1>Industrial Projects</h1>
+            <p>D&B Services for Industrial Projects</p>
           </div>
         </div>
+
+
       </div>
       <div class="carousel-item">
         <div class="animated fadeIn">
-          <img src="assets/images/caro-2.jpg" alt="Second slide">
+          <img src="assets/images/caro-1.jpg" alt="First slide">
           <div class="carousel-caption">
             <div class="animated fadeInLeftBig delay-1s">
-              <h1>Infrastructure Development</h1>
-              <p>Land Development Works, Roads, Drainage works</p>
+              <h1>Land Development Projects</h1>
+              <p>Machinery and Technical competency to undertake large scale construction projects</p>
             </div>
           </div>
+
+
         </div>
       </div>
       <div class="carousel-item">
@@ -92,12 +97,11 @@
         </div>
       </div>
       <div class="carousel-item">
-        <div class="animated fadeInUpBig">
-          <img src="assets/images/caro-4.jpeg" alt="Third slide"></div>
+        <img src="assets/images/caro-2.jpg" alt="Second slide">
         <div class="carousel-caption">
-          <div class="animated fadeInRightBig delay-1s">
-            <h1>Industrial Projects</h1>
-            <p>D&B Services for Industrial Projects</p>
+          <div class="animated fadeInLeftBig delay-1s">
+            <h1>Infrastructure Development</h1>
+            <p>Land Development Works, Roads, Drainage works</p>
           </div>
         </div>
       </div>
@@ -502,12 +506,10 @@
             <br>
             C-1/401, Aditya Shagun, S No 5,
             <br>
-            NDA Pashan Road,
-            <br>
-            Bavdhan,
+            NDA Pashan Road, Bavdhan,
             <br>Pune 411 021<br>India</p>
         </address>
-        </p>
+
         <p><i class="fas fa-mobile"></i><a href="tel:9657177333"> :
             +91-9657177333</a>
           <br>
@@ -540,62 +542,70 @@
           </a>
         </p>
       </div>
+      <div class="card">
+
+        <div id="map" style="width:100%;height:100%"></div>
+
+      </div>
     </div>
-    <div class="card" id="map">
-      <div class="card-body">Map Location</div>
+
+
+
+    <div class="row">
+
+      <div class="col-md-10">
+        <h5>You may also contact us by filling the form below;</h5>
+        <br>
+        <form action="scripts/email.php" class="form mx-auto" method="POST">
+          <div class="form-group">
+            <div class="row">
+              <div class="form-group col-sm-7">
+                <input class="form-control" id="name" name="name" placeholder="Your Name please" type="text" required>
+                <div class="help-block with-errors"></div>
+              </div>
+              <div class="col-sm-5 form-group">
+                <input class="form-control" id="tel" name="tel" placeholder="Phone number" type="tel" required>
+                <div class="help-block with-errors"></div>
+              </div>
+            </div>
+            <div class="row">
+              <div class=" form-group col-sm-7">
+                <input class="form-control" id="email" name="email" placeholder="Your Email ID please" type="email"
+                  required>
+                <div class="help-block with-errors"></div>
+              </div>
+
+            </div>
+            <div class="row">
+              <div class="form-group col-sm-12">
+                <input class="form-control" id="subject" name="subject" placeholder="Please write subject" type="text"
+                  required>
+                <div class="help-block with-errors"></div>
+              </div>
+            </div>
+            <textarea class="form-control" id="comments" name="comments" placeholder="Comment" rows="5"></textarea>
+            <br>
+            <div class="row">
+              <div class="col-sm-6 form-group">
+                <button class="btn btn-success" type="submit" name="submit">Send</button>
+              </div>
+            </div>
+          </div>
+        </form>
+        <br>
+
+      </div>
+
+
 
     </div>
+
+
+
   </div>
   <br>
 
-  <div class="row">
 
-    <div class="col-md-10">
-      <h5>You may also contact us by filling the form below;</h5>
-      <br>
-      <form action="scripts/email.php" class="form mx-auto" method="POST">
-        <div class="form-group">
-          <div class="row">
-            <div class="form-group col-sm-7">
-              <input class="form-control" id="name" name="name" placeholder="Your Name please" type="text" required>
-              <div class="help-block with-errors"></div>
-            </div>
-            <div class="col-sm-5 form-group">
-              <input class="form-control" id="tel" name="tel" placeholder="Phone number" type="tel" required>
-              <div class="help-block with-errors"></div>
-            </div>
-          </div>
-          <div class="row">
-            <div class=" form-group col-sm-7">
-              <input class="form-control" id="email" name="email" placeholder="Your Email ID please" type="email"
-                required>
-              <div class="help-block with-errors"></div>
-            </div>
-
-          </div>
-          <div class="row">
-            <div class="form-group col-sm-12">
-              <input class="form-control" id="subject" name="subject" placeholder="Please write subject" type="text"
-                required>
-              <div class="help-block with-errors"></div>
-            </div>
-          </div>
-          <textarea class="form-control" id="comments" name="comments" placeholder="Comment" rows="5"></textarea>
-          <br>
-          <div class="row">
-            <div class="col-sm-6 form-group">
-              <button class="btn btn-success" type="submit" name="submit">Send</button>
-            </div>
-          </div>
-        </div>
-      </form>
-      <br>
-
-    </div>
-
-
-
-  </div>
 
 
   </div>
@@ -618,7 +628,13 @@
 
 
 
+
+
 </script>
+<script src="assets/js/gmaps.js"></script>
+<!-- <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDArFi9x-WXRxFXqt3s3_dlt438y1a31AI&callback=initMap">
+</script>-->
+<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCLPd0oYXUUnJglm5Zb3BrPuGgooQOcl-o&callback=initMap"></script>
 
 
 </html>

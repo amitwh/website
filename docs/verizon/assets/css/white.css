@@ -267,6 +267,10 @@ h5 {
     font-family: Julius;
 }
 
+h2 {
+    font-weight: bold;
+}
+
 .carousel-caption {
     /* position: absolute; */
     /* bottom: -60px; */

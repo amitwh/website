@@ -8,8 +8,8 @@ var customLabel = {
 
 function initMap() {
     var map = new google.maps.Map(document.getElementById('map'), {
-        center: new google.maps.LatLng(18.764681, 73.859353),
-        zoom: 15
+        center: new google.maps.LatLng(18.764657, 73.859349),
+        zoom: 17
     });
     var infoWindow = new google.maps.InfoWindow;
 

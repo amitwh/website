@@ -5,7 +5,7 @@ $("#abc").click(function () {
 
 
 
-$(document).ready(function () {
+/* $(document).ready(function () {
 
     $('#overlay').modal('show');
     setTimeout(function () {
@@ -14,3 +14,4 @@ $(document).ready(function () {
 
 });
 
+ */

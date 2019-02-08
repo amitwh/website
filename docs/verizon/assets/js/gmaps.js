@@ -15,6 +15,9 @@ function initMap() {
 
     // Change this depending on the name of your PHP or XML file
 
+    google.maps.event.addDomListener(window, 'resize', function () {
+        map.setCenter(new google.maps.LatLng(18.764657, 73.859349));
+    });
 
     downloadUrl('assets/js/mapmarkers.xml', function (data) {
         var xml = data.responseXML;

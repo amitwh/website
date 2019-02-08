@@ -1,0 +1,500 @@
+/* verizon Logo Colours
+Dark : #1b455b
+light : #44768d
+
+ */
+
+/* Other Colours
+ Grey : #737373
+
+ */
+
+body {
+    /*     background-color: #000000; */
+    /* background-color: #dbdbdb; */
+    background-color: #222222;
+}
+
+hr {
+    width: auto;
+    color: #363636;
+    background-color: #455a64;
+}
+
+#rotate {
+    font-family: Cabin;
+    text-transform: uppercase;
+    font-size: 1.2em;
+    text-align: center;
+}
+
+@media all and (max-width: 1920px) {
+    #main,
+    #about,
+    #carouselId,
+    .container-fluid {
+        max-width: 1279.98px;
+    }
+    .navbar {
+        max-width: 1279.98px;
+        margin: auto;
+        font-family: Cabin;
+        padding: 0 !important;
+        box-shadow: 0 1px 1.5px 0 rgba(39, 39, 39, 0.938), 0 1px 1px 0 rgba(0, 0, 0, .24);
+        background-color: #1B1A17;
+        color: #e5e6e7;
+    }
+    .nav-link {
+        color: #ffffff;
+        width: 100px;
+        text-align: center;
+    }
+    h1 {
+        font-size: 2.2em;
+    }
+    .card-header {
+        font-family: Julius;
+        font-size: 1.5em;
+    }
+    .card-body {
+        font-family: Raleway;
+        font-size: 1.1em;
+    }
+    h5 {
+        font-size: 1.4em;
+    }
+    .carousel {
+        padding-top: 50px;
+        margin: auto;
+        max-height: 100vh;
+    }
+}
+
+@media all and (max-width: 1280px) {
+    #main,
+    #about,
+    #carouselId,
+    .container-fluid {
+        max-width: 1023.98px;
+    }
+    .navbar {
+        max-width: 1023.98px;
+        margin: auto;
+        font-family: Cabin;
+        padding: 0 !important;
+        box-shadow: 0 1px 1.5px 0 rgba(0, 0, 0, .12), 0 1px 1px 0 rgba(0, 0, 0, .24);
+        background-color: #1B1A17;
+        color: #e5e6e7;
+    }
+    .nav-link {
+        color: #f6f8fa;
+        width: 100px;
+        text-align: center;
+    }
+    h1 {
+        font-size: 1.5rem;
+    }
+    p {
+        font-size: 1.0em;
+    }
+    .card-header {
+        font-family: Julius;
+        font-size: 1.2em;
+    }
+    .card-body {
+        font-family: Raleway;
+        font-size: 1.0em;
+    }
+    h5 {
+        font-size: 1.2em;
+    }
+    .carousel {
+        padding-top: 50px;
+        margin: auto;
+        max-height: 100vh;
+    }
+}
+
+@media all and (max-width: 980px) {
+    #main,
+    #about,
+    #carouselId,
+    .container-fluid {
+        max-width: 970.98px;
+    }
+    .navbar {
+        max-width: 970.98px;
+        margin: auto;
+        font-family: Roboto;
+        padding: 0 !important;
+        box-shadow: 0 1px 1.5px 0 rgba(0, 0, 0, .12), 0 1px 1px 0 rgba(0, 0, 0, .24);
+        background-color: #1B1A17;
+        color: #e5e6e7;
+    }
+    .nav-link {
+        color: #f1f1f1;
+        text-align: right;
+        padding-right: 20px;
+        width: auto;
+    }
+    h1 {
+        font-size: 1.2em;
+    }
+    p {
+        font-size: 1em;
+    }
+    .card-header {
+        font-family: Julius;
+        font-size: 0.9rem;
+    }
+    .card-body {
+        font-family: Raleway;
+        font-size: 0.9em;
+    }
+    h5 {
+        font-size: 1.0em;
+    }
+    .carousel-caption {
+        bottom: -30px;
+    }
+}
+
+@media all and (max-width: 736px) {
+    .navbar {}
+    .nav-link {
+        text-align: center;
+    }
+    h1 {
+        font-size: 1.0em;
+    }
+    p {
+        font-size: 1.0em;
+    }
+    .card-header {
+        font-family: Julius;
+        font-size: 1em;
+    }
+    .card-body {
+        font-family: Raleway;
+        font-size: 0.9em;
+    }
+    h5 {
+        font-size: 1em;
+    }
+    .carousel {
+        padding-top: 50px;
+        margin: auto;
+        max-height: 500px;
+    }
+    .carousel .item {
+        height: 400px;
+    }
+    .carousel .item img {
+        position: absolute;
+        top: 0;
+        left: 0;
+        min-height: 400px;
+    }
+    .carousel-caption {
+        bottom: -30px;
+    }
+    #map {
+        width: 100%;
+        height: 100%;
+    }
+}
+
+@media all and (max-width: 480px) {
+    .carousel .item {
+        height: 400px;
+    }
+    .carousel .item img {
+        position: absolute;
+        top: 0;
+        left: 0;
+        min-height: 400px;
+    }
+    .carousel-caption {
+        bottom: -40px;
+    }
+    #map {
+        width: 60%;
+        height: 60%;
+    }
+}
+
+.container-fluid {
+    padding-top: 50px;
+}
+
+.container {
+    background-color: rgba(3, 1, 7, 0.932);
+}
+
+#ongoing .fas {
+    color: #202c39;
+}
+
+/* change the color of active or hovered links */
+
+.navbar-nav .nav-item.active .nav-link,
+.navbar-nav .nav-item:hover .nav-link {
+    background-color: #f7e227;
+    color: rgb(5, 5, 5);
+    -moz-animation: cubic-bezier(0.075, 0.82, 0.165, 1);
+    animation-fill-mode: forwards;
+    -webkit-animation: cubic-bezier(0.165, 0.84, 0.44, 1);
+    box-shadow: 0 1px 1.5px 0 rgba(0, 0, 0, .12), 0 1px 1px 0 rgba(0, 0, 0, .24);
+}
+
+.navbar-nav .nav-link.active {
+    background-color: #c1d8e2;
+    color: white;
+    box-shadow: 0 1px 1.5px 0 rgba(0, 0, 0, .12), 0 1px 1px 0 rgba(0, 0, 0, .24);
+}
+
+.navbar-nav a {
+    padding: 15px 0;
+    /* add some padding to link to keep the same height*/
+}
+
+.bg {
+    max-width: 100%;
+}
+
+img {
+    width: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-family: Julius;
+}
+
+h2 {
+    font-weight: bold;
+}
+
+.carousel-caption {
+    /* position: absolute; */
+    /* bottom: -60px; */
+    font-family: Julius;
+    -moz-animation: cubic-bezier(0.075, 0.82, 0.165, 1);
+    animation-fill-mode: forwards;
+    -webkit-animation: cubic-bezier(0.165, 0.84, 0.44, 1);
+    box-shadow: 0 1px 1.5px 0 rgba(0, 0, 0, .12), 0 1px 1px 0 rgba(0, 0, 0, .24);
+    background-color: #00000085;
+    max-width: 100%;
+    width: 100%;
+    left: 0;
+}
+
+.card-group {
+    margin: auto;
+}
+
+.card,
+.card-header,
+.card-body {
+    border: none;
+}
+
+#about {
+    padding-top: 50px;
+    /*  background-color: #130d18; */
+    color: #131313;
+    background-color: #9BBEBE;
+    font-family: Raleway;
+    /* background-image: url("../images/backtest.png"); */
+    background-size: 100%;
+    margin: auto;
+}
+
+#contact {
+    padding-top: 50px;
+    color: #000000;
+    background-color: rgb(239, 235, 241);
+    font-family: Raleway;
+    margin: auto;
+}
+
+/* #vmv {
+    width: 100%;
+} */
+
+#vision .card-body {}
+
+#vist {
+    text-align: center;
+    width: 100%;
+    color: #000000;
+    /* background-color: #161616; */
+    background-color: #f0c91e;
+    font-weight: bold;
+}
+
+#mist {
+    text-align: center;
+    width: 100%;
+    color: #000000;
+    background-color: #f0c91e;
+    font-weight: bold;
+}
+
+#valt {
+    background-color: #f0c91e;
+    text-align: center;
+    color: #000000;
+    font-weight: bold;
+    width: 100%;
+}
+
+#projects {
+    padding-top: 50px;
+    color: #000000;
+    background-color: rgb(241, 235, 235);
+    margin: auto;
+    font-family: Raleway;
+}
+
+img.sticky {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 40px;
+    width: 400px;
+}
+
+/* These are the settings for the project overlay effect */
+
+#projects .card-img-top {
+    display: block;
+    /* width: 100%; */
+    height: 100%;
+    padding: none;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: 1s ease;
+    background-color: #2c2c2c;
+}
+
+.rectangle {
+    background-color: #184757;
+    width: auto;
+    height: 40px;
+}
+
+.card:hover .overlay {
+    opacity: 0.95;
+}
+
+.card:active .overlay {
+    opacity: 1;
+}
+
+/* .card-header {
+    font-family: Julius;
+    font-size: 2.0rem;
+} */
+
+.card-body {
+    background-color: #e2e1e1;
+    color: #0f0e0e;
+}
+
+.card-header {
+    text-align: center;
+    background-color: #ffc422;
+    color: #0c0c0c;
+    font-weight: bold;
+}
+
+.modal-header {
+    text-align: center;
+    background-color: #184757;
+    color: rgb(241, 235, 235);
+}
+
+#ttl {
+    text-align: left;
+}
+
+#contact .card-header {
+    text-align: left;
+}
+
+#services {
+    padding-top: 50px;
+    /*  background-color: #130d18; */
+    color: #131313;
+    background-color: #9BBEBE;
+    margin: auto;
+    font-family: Raleway;
+    /* background-image: url("../images/backtest.png"); */
+    background-size: 100%;
+}
+
+#clients {
+    padding-top: 50px;
+    color: #000000;
+    background-color: rgb(241, 235, 235);
+    margin: auto;
+    font-family: Raleway;
+}
+
+.card {
+    background-color: rgb(241, 235, 235);
+    max-width: 400px;
+}
+
+.card img {
+    max-width: auto;
+    /* max-height: 267px; */
+}
+
+.card-title {
+    background-color: #d35050;
+}
+
+#team {
+    padding-top: 50px;
+    color: #000000;
+    background-color: rgb(241, 235, 235);
+    margin: auto;
+    font-family: Raleway;
+}
+
+#contact {
+    padding-top: 50px;
+    /*  background-color: #130d18; */
+    color: #000000;
+    background-color: rgb(241, 235, 235);
+    margin: auto;
+    font-family: Raleway;
+    /* background-image: url("../images/backtest.png"); */
+    background-size: 100%;
+}
+
+#contact h5 {
+    font-weight: bold;
+}
+
+#contact .card {
+    background-color: #e2e1e1;
+}
+
+#map {
+    width: 100%;
+    height: 100%;
+}

@@ -17,8 +17,8 @@
   <link rel="stylesheet" type="text/css" media="screen" href="assets/css/animate.css">
   <!-- <link rel="stylesheet" type="text/css" media="screen" href="assets/css/anime.css"> -->
   <link rel="stylesheet" type="text/css" media="screen" href="assets/css/fonts.css">
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
-    integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU"
+    crossorigin="anonymous">
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <!-- Scripts for Website -->
   <script src="assets/js/jquery-3.3.1.min.js"></script>
@@ -29,6 +29,7 @@
   <script src="assets/js/jQuery.menutron.min.js"></script>
   <script src="assets/js/tooltip.js" crossorigin="anonymous"></script>
   <script src="assets/js/verizon.js"></script>
+  <script src="assets/php/email.php"></script>
 
 </head>
 
@@ -55,13 +56,11 @@
       <img class="resize_img" id="logo" src="assets/images/t.png" alt="Verizon Infrastructures">
     </a>
     <span id="rotate"> </span>
-    <button class="navbar-toggler navbar-light" type="button" data-toggle="collapse"
-      data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-      aria-label="Toggle navigation">
+    <button class="navbar-toggler navbar-light" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
-    <div class="collapse navbar-collapse" data-toggle="collapse" data-target=".navbar-collapse"
-      id="navbarSupportedContent">
+    <div class="collapse navbar-collapse" data-toggle="collapse" data-target=".navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav ml-auto">
         <li class="nav-item"><a class="nav-link" href="#carouselId">Home<span class="sr-only">(current)</span></a>
         </li>
@@ -364,14 +363,16 @@
 
       <hr>
       <p>We provide end to end solutions to meet your construction needs</p>
-      <p>Our Inhouse experts and associated domain experts provide great value addition in transforming your intent into
+      <p>Our Inhouse experts and associated domain experts provide great value addition in transforming your intent
+        into
         reality, For this we provide a large number of specialised services to meet your needs </p>
       <div class="card-group">
         <div class="card" id="sv1">
           <img class="card-img-top" src="assets/images/designbuild.jpg">
           <div class="card-header">Design &amp; Build / Turnkey</div>
           <div class="card-body" id="svb1">
-            <p> We do complete D&amp;B / Turnkey projects, which include Design (Structural, Architectural &amp; MEP) to
+            <p> We do complete D&amp;B / Turnkey projects, which include Design (Structural, Architectural &amp; MEP)
+              to
               meet the project intent. We execute Civil, Architectural &amp; MEP Works and related infrastructure /
               liasoning works while relieving you of the painful tasks or coordinating all design and construction
               intricacies to provide you a completed structure for handover in a ready state </p>
@@ -391,7 +392,8 @@
           <img class="card-img-top" src="assets/images/indstru.jpg">
           <div class="card-header">Industrial Structures</div>
           <div class="card-body" id="svb1">
-            <p> Our past trackrecord in executing and building Industrial projects and Warehouses makes us the preferred
+            <p> Our past trackrecord in executing and building Industrial projects and Warehouses makes us the
+              preferred
               choice for catering to your Industrial structure needs. </p>
           </div>
         </div>
@@ -489,8 +491,7 @@
               <br>
               <i class="fas fa-mobile"></i><a href="tel:9860091150"> : +91-9860091150</a>
               <br>
-              <i class="fas fa-envelope"></i> : <a
-                href="mailto:verizoninfrastructure@gmail.com">verizoninfrastructure@gmail.com
+              <i class="fas fa-envelope"></i> : <a href="mailto:verizoninfrastructure@gmail.com">verizoninfrastructure@gmail.com
               </a>
             </p>
           </div>
@@ -517,8 +518,7 @@
               <br>
               <i class="fas fa-mobile"></i><a href="tel:9850982087"> : +91-9850982087</a>
               <br>
-              <i class="fas fa-envelope"></i> : <a
-                href="mailto:admin@verizoninfrastructure.com">admin@verizoninfrastructure.com
+              <i class="fas fa-envelope"></i> : <a href="mailto:admin@verizoninfrastructure.com">admin@verizoninfrastructure.com
               </a>
             </p>
           </div>
@@ -533,12 +533,11 @@
         <div class="col-md-10">
           <h5>You may also contact us by filling the form below;</h5>
           <br>
-          <form action="scripts/email.php" class="form mx-auto" method="POST">
+          <form action="assets/php/email.php" class="form mx-auto" method="POST">
             <div class="form-group">
               <div class="row">
                 <div class="form-group col-sm-7">
-                  <input class="form-control" id="name" name="name" placeholder="Your Name please" type="text"
-                    required="">
+                  <input class="form-control" id="name" name="name" placeholder="Your Name please" type="text" required="">
                   <div class="help-block with-errors"></div>
                 </div>
                 <div class="col-sm-5 form-group">
@@ -586,8 +585,7 @@
     <script src="assets/js/gmaps.js"></script>
     <!-- <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDArFi9x-WXRxFXqt3s3_dlt438y1a31AI&callback=initMap">
 </script>-->
-    <script async="" defer=""
-      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCLPd0oYXUUnJglm5Zb3BrPuGgooQOcl-o&amp;callback=initMap"></script>
+    <script async="" defer="" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCLPd0oYXUUnJglm5Zb3BrPuGgooQOcl-o&amp;callback=initMap"></script>
 
 </body>
 

@@ -1,0 +1,24 @@
+/* background-image: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12);
+background-image: linear-gradient(to top, #8a11c6, #6928b7, #4a2fa5, #303090, #1a2e79, #142a70, #0d2666, #07225d, #081d60, #0e1661, #160d62, #1f0062);
+color1:#423f47;
+color */
+
+body {
+    background-image: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12);
+}
+
+.navbar {
+    background-color: #423f47;
+}
+
+#1 {
+    background-color: #f8ebff;
+}
+
+.card-header {
+    background-color: #726f77;
+}
+
+#2 {
+    background-color: #423f47;
+}

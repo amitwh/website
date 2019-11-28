@@ -1,0 +1,41 @@
+.navbar {
+    background-color: #eeeeee;
+
+}
+
+.navbar .navbar-brand {
+    font-family: Open Sans Condensed;
+    font-weight: bold;
+    font-size: 1.5em;
+    color: #ff4500;
+}
+
+.nav-link {
+    font-family: Cabin;
+    color: orangered;
+    vertical-align: text-bottom;
+}
+
+.nav-item {
+    vertical-align: text-bottom;
+}
+
+.container-fluid {
+    padding-top: 70px;
+}
+
+.card-header {
+    font-family: Cabin;
+}
+
+p {
+    font-family: Cabin;
+}
+
+#event {
+    background-color: #bdbdbd;
+}
+
+#contact {
+    background-color: #f2f4f5;
+}
